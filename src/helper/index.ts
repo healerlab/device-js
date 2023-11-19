@@ -123,7 +123,7 @@ const generateDevice = (headers: any, userAgent: string): Device => {
   }
 }
 
-const flags = generateDevice({}, navigator.userAgent) as Device
+const deviceInfo = generateDevice({}, navigator.userAgent) as Device
 
 
-export const detectDevice = flags
+export const detectDevice = deviceInfo
