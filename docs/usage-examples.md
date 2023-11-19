@@ -125,16 +125,3 @@ This module uses [crawler-user-agents](https://github.com/monperrus/crawler-user
 ## Note
 This module inspired by [@nuxtjs/device](https://github.com/nuxt-modules/device) module
 
-## Demo Examples
-
-Here we display a list of settings that could be applied within an application.
-
-<script setup lang="ts">
-import { detectDevice } from '@healerlab/device-js'
-</script>
-<div>{{
-  detectDevice
-}}</div>
-<div>
-</div>
-
