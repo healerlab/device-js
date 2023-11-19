@@ -30,6 +30,12 @@ Add it to your file or component:
 import { detectDevice } from '@healerlab/device-js'
 ```
 
+or 
+```js
+import pkg from '@healerlab/device-js';
+const { detectDevice } = pkg;
+```
+
 That's it, you can now use `detectDevice` in your app ✨
 
 ## Flags
@@ -67,6 +73,10 @@ You can use detectDevice inside a `script` to access the flags.
 ```js
 <script setup>
 import { detectDevice } from '@healerlab/device-js'
+
+// or 
+import pkg from '@healerlab/device-js';
+const { detectDevice } = pkg;
 </script>
 ```
 
