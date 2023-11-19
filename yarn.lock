@@ -271,11 +271,6 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.19.5.tgz#faad84c41ba12e3a0acb52571df9bff37bee75f6"
   integrity sha512-czTrygUsB/jlM8qEW5MD8bgYU2Xg14lo6kBDXW6HdxKjh8M5PzETGiSHaz9MtbXBYDloHNUAUW2tMiKW4KM9Mw==
 
-"@healerlab/device-js@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@healerlab/device-js/-/device-js-0.0.3.tgz#3bd3810d2f5130a9918036978ab98b1eb16bb52b"
-  integrity sha512-8FUuuhnEckWnB0olu7Z8iJB9Z+3C1+B/KpQRtiRw1/SkomYZUYbNfNEyY4SzSoXHtTlVNHYjZusTZtmtmI2Dug==
-
 "@jridgewell/sourcemap-codec@^1.4.15":
   version "1.4.15"
   resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz#d7c6e6755c78567a951e04ab52ef0fd26de59f32"

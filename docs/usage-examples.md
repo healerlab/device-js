@@ -130,15 +130,3 @@ This module uses [crawler-user-agents](https://github.com/monperrus/crawler-user
 
 ## Note
 This module inspired by [@nuxtjs/device](https://github.com/nuxt-modules/device) module
-
-## Demo Examples
-<script setup lang="ts">
-import pkg from '@healerlab/device-js';
-const { detectDevice } = pkg;
-</script>
-<div>{{
-  detectDevice
-}}</div>
-<div>
-</div>
-
