@@ -34,6 +34,13 @@ Add it to your file or component:
 import { detectDevice } from '@healerlab/device-js'
 ```
 
+or
+
+```js
+import pkg from '@healerlab/device-js';
+const { detectDevice } = pkg;
+```
+
 That's it, you can now use `detectDevice` in your app ✨
 
 ## Flags
@@ -73,7 +80,6 @@ You can use detectDevice inside a `script` to access the flags.
 import { detectDevice } from '@healerlab/device-js'
 </script>
 ```
-
 
 ### Switch a view
 
@@ -124,4 +130,3 @@ This module uses [crawler-user-agents](https://github.com/monperrus/crawler-user
 
 ## Note
 This module inspired by [@nuxtjs/device](https://github.com/nuxt-modules/device) module
-
