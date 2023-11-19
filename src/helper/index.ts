@@ -123,7 +123,9 @@ const generateDevice = (headers: any, userAgent: string): Device => {
   }
 }
 
-const deviceInfo = generateDevice({}, navigator.userAgent) as Device
+const userAgent = typeof window !== 'undefined' ? navigator.userAgent : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.39 Safari/537.36'
+
+const deviceInfo = generateDevice({}, userAgent) as Device
 
 
 export const detectDevice = deviceInfo
